@@ -1,8 +1,8 @@
 name: flutter_yandex_appmetric
-description: A new flutter plugin project.
+description: Flutter plugin for Yandex AppMetric
 version: 0.0.1
-author:
-homepage:
+author: Ivan Saprykin
+homepage: https://github.com/Ivansap
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
