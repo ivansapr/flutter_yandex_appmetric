@@ -51,7 +51,7 @@ class YandexAppmetricDelegate  {
     public static func reportCustomEvent(_ eventName: String){
           YMMYandexMetrica.reportEvent(eventName, onFailure: { (error) in
               print("DID FAIL REPORT EVENT: %@", eventName)
-              print("REPORT ERROR: %@", error?.localizedDescription)
+              print("REPORT ERROR: %@", error.localizedDescription)
           })
     }
 }
